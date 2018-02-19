@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="header">
-          <h1 className="title"><a href="www.nbk.org/artothek/artothek.html">n.b.k Artothek</a></h1>
+          <h1 className="title"><a href="http://www.nbk.org/artothek/artothek.html">n.b.k Artothek</a></h1>
         </header>
         <div className="art-list">
           {this.state.items.map((object, i) =>  <Artist key={i} name={object.name} imgs={object.imgs}/>)}
